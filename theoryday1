@@ -5,3 +5,40 @@ ans: Emmet is a plugin or toolkit that allow as to code faster which is comes pr
 2. Difference between library and framework
 
 ans: The difference between library and frameworl lies in a tern called inversion of control when we used a library we are in charge of our code we control the flow of the code but when we use a framwork it will take care of all the control it will provide some space to plug our code but it calls the code we are plugged in as they needed
+
+3. What is CDN why do we use it 
+
+ans: CDN content delevery network its a network of servers that linked together it has a goal of delevering contents as quickly, cheaply , reliably  and securely as possible We use Content Delivery Networks (CDNs) to make websites load faster and perform better for users all around the world.
+
+4. Why react known as react
+
+ans: The name "React" comes from its core principle of building UI components that react to changes in application state Additionally, the name "React" reflects the library's focus on creating dynamic and interactive user interfaces that respond quickly to user input and application state changes
+
+5.Difference between React and React DOM
+
+ans: while React is a javascript library used for building better user interfaces and React DOM is a complimentary library to React which glues the react to browser DOM
+
+6.What is the difference between react.developmenet.js and react.production.js file via CDN
+
+ans: Development (Dev) Link:
+The development link is typically used during the development phase of your application.
+It includes additional debugging tools, warnings, and helpful error messages.
+It is larger in file size and may negatively impact the performance of your application.
+It is not optimised for production use.
+
+
+Production (Prod) Link:
+The production link is meant for deploying your application in a production environment.
+It excludes development-specific tools, warnings, and error messages.
+It is smaller in file size, which improves the performance of your application.
+It is optimized for production use.
+
+
+
+
+
+
+
+
+
+
