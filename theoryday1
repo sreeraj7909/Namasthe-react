@@ -33,6 +33,10 @@ It excludes development-specific tools, warnings, and error messages.
 It is smaller in file size, which improves the performance of your application.
 It is optimized for production use.
 
+7. What is crossorigin in script tag
+ 
+ans: The crossorigin attribute in a <script> tag is used to specify how the browser should handle requests for the script source if it's loaded from a different origin (domain, protocol, or port) than the current webpage.
+
 
 
 
