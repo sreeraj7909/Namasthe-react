@@ -1,0 +1,7 @@
+1.What is Emmet in vs code
+
+ans: Emmet is a plugin or toolkit that allow as to code faster which is comes pre installed in vs code helps us to create repetative structures with minimal code
+
+2. Difference between library and framework
+
+ans: The difference between library and frameworl lies in a tern called inversion of control when we used a library we are in charge of our code we control the flow of the code but when we use a framwork it will take care of all the control it will provide some space to plug our code but it calls the code we are plugged in as they needed
