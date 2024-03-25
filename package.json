@@ -1,0 +1,30 @@
+{
+  "name": "namasthe-react",
+  "version": "1.0.0",
+  "description": "course about namasthe React",
+  
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreeraj7909/Namasthe-react.git"
+  },
+  "keywords": [
+    "reat"
+  ],
+  "author": "sreeraj_S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreeraj7909/Namasthe-react/issues"
+  },
+  "homepage": "https://github.com/sreeraj7909/Namasthe-react#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
