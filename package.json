@@ -4,7 +4,10 @@
   "description": "course about namasthe React",
   
   "scripts": {
-    "test": "test"
+    "start":"parcel index.html",
+    "test": "test",
+    "build":"parcel build index.html"
+    
   },
   "repository": {
     "type": "git",
