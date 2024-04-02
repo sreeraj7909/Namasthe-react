@@ -1,0 +1,2 @@
+export const CDN_URL="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/";
+export const LOGO_URL="https://play-lh.googleusercontent.com/HUIvsZJ0A9FoIXY9GSteCOd95FqClqO82X8TT1Ldhg00o6-97mYNy3XQyBhXuvTlTkg"

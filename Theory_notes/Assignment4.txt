@@ -1,0 +1,100 @@
+1. is jsx mandidatory for React
+
+ans: No jsx is not mandidatroy for React it is javvascript xml. jsx is a syntaxe extension for javascript it allow us to write HTML like code in our javascript file it will improve the readability of the code and maintainability by using jsx we can easily build react components
+
+2. Is Es6 is mandidatory for React js
+
+ans:  not strictly mandatory for React development, but it is highly recommended and widely used. Many features introduced in ES6, such as arrow functions, classes, template literals, destructuring assignment, and spread/rest operators, greatly improve the syntax and expressiveness of JavaScript code.
+
+3. {TitleComponent} vs {<TitleComponent/>} vs
+{<TitleComponent></TitleComponent>} in JSX
+
+Ans:The choice between these syntaxes depends on whether you want to include the component with additional wrapping elements, as a self-closing element, or with children elements.
+
+4. How can i write comment in jsx
+
+Ans:{/* This is a single-line comment */}
+{/*This is
+  multi line comment
+*/}
+
+5.What is <React.Fragment></React.Fragment> and <></> ?
+
+Ans:are both ways to create a container that does not render an additional DOM element. They are used when you need to return multiple elements from a component, but you don't want to add an extra wrapping element to the DOM.<></> is the shorter syntax
+
+6.What is virtual Dom 
+
+ans: Virtual DOM is the representaion of the actual DOM. That is virtual DOM is the representaion of the html structure in to object structure beacuse finding the differrence between to html file id tough and finding the difference betwenn two object is more easier
+
+7. What is React fiber
+
+ans:React Fiber is an advanced reconciliation algorithm and rendering engine in React that offers improved performance, responsiveness, and support for asynchronous rendering. It's a complete rewrite of React's core algorithm designed to break down rendering work into smaller, prioritized units, allowing React to efficiently handle complex UI updates while maintaining a smooth user experience.
+
+Fiber introduces features like incremental rendering, prioritization, and error recovery, enabling React applications to respond more quickly to user interactions and to handle high-priority tasks without blocking the main thread. It lays the foundation for concurrent mode, which allows React to work on multiple tasks concurrently, making better use of available resources and improving performance in modern web applications.
+
+In essence, React Fiber is a crucial advancement in React's rendering process, offering developers better tools for building highly interactive and performant user interfaces.
+
+7.what is keys why do we need it
+
+ans: In React, keys are used to identify and differentiate between items in a list of elements. They help React identify which items have changed, are added, or are removed during the rendering process. Keys are important because they enable React to efficiently update the UI without re-rendering every component when the list changes.
+
+8.● Can we use index as keys in React?
+
+ans:it is not a prefered way but there is no key in the data then we can use index as a key 
+
+9. Props in React
+
+ans:In React, props (short for properties) are a way to pass data from a parent component to a child component. Props are read-only, meaning that a child component cannot modify the props it receives from its parent.
+
+Props are typically used to customize or configure child components, allowing the parent component to control the behavior and appearance of its children.
+
+There are several ways to pass props to a React component:
+
+Inline Props: You can pass props directly to a component as attributes:
+jsx
+Copy code
+<MyComponent name="John" age={30} />
+In this example, name and age are props passed to the MyComponent component.
+
+Dynamic Props: Props can also be dynamic values or expressions:
+jsx
+Copy code
+const username = "Alice";
+<MyComponent name={username} />
+Here, the value of the name prop is dynamically set based on the username variable.
+
+Spread Operator: You can pass multiple props to a component using the spread operator (...):
+jsx
+Copy code
+const user = { name: "Bob", age: 25 };
+<MyComponent {...user} />
+This spreads the properties of the user object as individual props to MyComponent.
+
+Passing Callback Functions: You can pass functions as props to allow child components to communicate with their parent components:
+jsx
+Copy code
+function handleClick() {
+  console.log("Button clicked!");
+}
+
+<MyButton onClick={handleClick} />
+Here, the onClick prop is a callback function that will be invoked when the button is clicked.
+
+Children Props: You can pass child elements to a component using the special children prop:
+jsx
+Copy code
+<MyContainer>
+  <MyComponent />
+</MyContainer>
+In this example, the MyComponent is a child of MyContainer, and it can be accessed within MyContainer using the children prop.
+
+Props provide a flexible and efficient way to customize and configure React components, enabling the composition of complex UIs from simple and reusable building blocks.
+
+10.What is a Config Driven UI ?\
+
+an:Controlling our UI using Data config
+
+
+
+
+

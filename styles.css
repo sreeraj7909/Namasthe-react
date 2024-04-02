@@ -1,23 +1,62 @@
-.header {
+.header{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #333;
-    color: white;
+    border: 1px solid black;
 }
-.logo img{
-    width: 60px; /* Adjust the size of the logo and user icon as needed */
-    height: auto;
+ 
+.logo{
+    width: 100px;
 }
-.user img{
-    width: 60px;
-    height: auto;
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 20px;
+  
+   
+
+}
+.nav-items > ul >li {
+   padding: 10px;
+   margin: 10px;
+   
 }
 .search{
-    padding: 5px 10px;
-    border-radius: 10px;
-    border: none;
-    width: 500px; /* Adjust the width of the search bar as needed */
-    font-size: 16px;
+    margin:5px;
 }
+
+.res-card{
+    width: 200px;
+    padding: 7px;
+    overflow: hidden
+}
+.res-card:hover{
+    border: 3px solid teal;
+    cursor: pointer;
+   
+}
+.res-img{
+    width: 100%;
+    background-attachment:fixed ;
+}
+.rescard-container{
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+@media (min-width: 900px) {
+    .rescard-container {
+      flex-direction: row;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin: auto;
+      align-items: stretch;  
+  
+  }
+  }
+
+  .filter-btn{
+    margin: 10px;
+    cursor: pointer;
+  }
